@@ -1,0 +1,24 @@
+  # Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Test and coverage output
+.pytest_cache/
+.coverage
+htmlcov/
+reports/
+report.html
+test-results/
+playwright-report/
+allure-results/
+
+# Local environment variables and secrets
+.env
+.env.*
+!.env.example
